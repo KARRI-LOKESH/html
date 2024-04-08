@@ -1,0 +1,117 @@
+body{
+background-size:500%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+border:1px dotted whitesmoke;
+}
+h1{
+    color:rgb(204, 232, 236);
+    border:1px solid wheat;
+    border-radius: 20px;
+    background-color: rgb(70, 66, 66);
+    text-align: center;
+    max-width:30%;
+    margin-left:36%; 
+    text-shadow:0 0 2px green,
+    0 3px 4px violet;
+}
+section{
+    background-color: rgb(43, 48, 48);
+    color:white;
+    opacity:0.5;
+    max-width: fit-content;
+    align-items: center;
+    margin-left:39%;
+    box-shadow: 0 3px 8px blue,
+    0 4px 5px green;
+}
+ol li{
+    color:blanchedalmond;
+    gap:30px;
+    padding:16px;
+    list-style-type: none;
+    font-size: 20px;
+    display:flex;
+    text-align: center;
+    margin-left: 31%;
+}
+h2{
+    color:rgb(212, 212, 198);
+    font-family:Geneva;
+    font-size:17px;
+}
+article{
+    color:beige;
+    border:1px solid wheat;
+    border-radius: 20px;
+    background-color: rgb(70, 66, 66);
+    text-align: center;
+    max-width:20%;
+    margin-left:41%; 
+    text-shadow:0 0 2px rgb(2, 0, 128),
+    0 3px 4px rgb(67, 2, 67);
+    gap:20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .img1{
+    float:right;
+  }
+  div {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+    max-width: fit-content;
+    background-color: rgb(43, 48, 48);
+    opacity:0.5;
+    max-width: fit-content;
+    align-items: center;
+    margin-left:39%;
+    box-shadow: 0 3px 8px blue,
+    0 4px 5px green;
+  }
+  p{
+    color:aliceblue;
+    text-align: center;
+    margin-top:10px;
+  }
+  ul li{
+    margin-left: 20%;
+    opacity:0.5;
+  }
+  h3{
+    color:rgb(24, 174, 82);
+    margin-left:2%;
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, Times;
+    color:white;
+    padding-top: 5px;
+  }
+  h4:hover{
+    background-color: rgb(74, 75, 77);
+  }
+  article:hover{
+    background-color: gray;
+    background-size:20px;
+  }
+  ol li:hover{
+    background-color: aquamarine;
+    max-width: 35%;
+    display:inline-flexbox;
+    text-shadow: 0 0 5px green,
+    2px 0 3px pink;
+  }
+  ul li:hover,ul li:active{
+    opacity:0.9;
+    text-shadow: 0 0 5px green,
+    2px 0 3px pink;
+  }
+  div:hover{
+    opacity:0.9;
+  }

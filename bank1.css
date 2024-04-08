@@ -1,0 +1,27 @@
+body{
+    color:white;
+}
+.login{
+    border:1px solid rgb(156, 150, 150);
+    background-color:rgb(74, 71, 71);
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    border-width:5px;
+    max-width: 23%;
+    margin-left: 37%;
+    padding: 20px;
+    box-shadow: 0 0 3px green,
+    0 0 2px rgb(135, 38, 70);
+    margin-top:5%;
+}
+input{
+    border-radius: 20px;
+    box-shadow: 0 0 1px orangered,
+    0 0 1px blue;
+}
+label{
+    text-transform: capitalize;
+    word-spacing:2px;
+    font-family: 'Times New Roman', Times, serif;
+}

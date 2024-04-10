@@ -2,8 +2,8 @@
 <html>
     <body>
         <?php
-        $x="hello";
-        echo "$x";
+        $gana=$_POST['acno'];
+        echo $gana;
         ?>
         </body>
         </html>
